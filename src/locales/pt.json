@@ -1,0 +1,614 @@
+{
+  "alert": {
+    "fileDate": "Documentos vigentes nos últimos dois anos.",
+    "filePassword": "Caso algum documento tenha senha, por favor, indique o nome do documento aqui",
+    "keepQuiet": "<b>Relaxe!</b> Não compartilharemos essa informação com ninguém. ",
+    "declined": "Desculpe-nos! Nossa equipe rejeitou um dos seus documentos. Para continuar o processo, por favor atualize-o e clique em finalizar. <br/> <b>Motivo da rejeição</b>: :reason"
+  },
+  "attachFile": "Anexar arquivo",
+  "errors": {
+    "hasntCoverage": "Desculpe-nos! Atualmente não temos cobertura na sua região, mas estamos trabalhando para atendê-lo em breve.",
+    "http": {
+      "badRequest": "Erro na informação enviada",
+      "notFound": "O recurso que você está procurando não se encontra disponível",
+      "unauthorized": "Credenciais inválidas",
+      "unexpectedError": "Erro Inesperado. Por favor, tente novamente mais tarde"
+    }
+  },
+  "form": {
+    "required": "Este campo é obrigatório",
+    "attachFilesForm": {
+      "stepTitle": "Documentos",
+      "documents": "Documentos",
+      "invalidFile": "O arquivo ': filename' não atende aos requisitos, pode não estar no formato adequado (.jpg, .jpeg, .png, .pdf) ou exceder o peso máximo de 2MB",
+      "alert": "Caso algum documento tenha senha, por favor, indique o nome do documento aqui",
+      "alert2": "Os documentos devem ser claros, legíveis e vigentes. Se o documento for frente e verso, assegure que o arquivo enviado esteja completo. ",
+      "attach": "Anexar",
+      "bankCertification": "Certificação bancária",
+      "identification": "Documento de identidade do representante legal <strong>(dois lados do documento)</strong>",
+      "identificationBack": "<strong>Opcional: </strong>Se o seu documento de identidade contém apenas uma face, adicione a que falta aqui",
+      "identificationError": "Ocorreu um problema ao processar seus arquivos, revise-os e tente novamente",
+      "title": "Anexe os seus documentos",
+      "extraInfo": "Info extra",
+      "deliveryField": "Já trabalha com outra empresa de delivery?",
+      "competencyUrl": "Digite o URL (Link) do seu restaurante na plataforma de delivery (Opcional)",
+      "yes": "Sim",
+      "no": "Não",
+      "select": "Selecione:"
+    },
+    "serviceModel": {
+      "stepTitle": "Modelo",
+      "title": "Modelo de serviço",
+      "alert": "Lembre-se de ler cada uma das páginas dos Termos e Condições e da Autorização de processamento de dados pessoais.Para fazer isso, você deve rolar o documento para baixo (\"scroll down\").",
+      "termsAndConditions": "Termos e condições",
+      "doc": "Rappi  S.A.S.  es  una  sociedad  constituida  conforme  a  las  leyes  de  la  República  de  Colombia,  identificada  con  NIT. 900.843.898-9, con domicilio en la Calle 93 No. 19-58 de la ciudad de Bogotá D.C., que para los efectos de los presentes términos se denominará “Rappi”.\n\nNaturaleza Jurídica\nLos presentes términos y condiciones regulan los parámetros bajo los cuales el Aliado Comercial podrá acceder al Sistema RappiGrowth, en el cual podrá seleccionar y crear Campañas Promocionales para ofrecerlas a los Usuarios/consumidores a través de la Plataforma, con el fin de que éstos las rediman y las utilicen en las órdenes que realicen en esta.\n\nEl  Aliado  Comercial  acepta  los  presentes  términos  y  condiciones  y  no  podrá  realizar  modificaciones  a  estos, comprendiendo que a partir del momento de su firma, será el único objeto de regulación del uso del Sistema RappiGrowth. Se aclara que los presentes términos y condiciones no modifican cualquier tipo de acuerdo suscrito anteriormente entre las Partes que tenga un Objeto diferente al aquí dispuesto. Rappi  S.A.S.  es  una  sociedad  constituida  conforme  a  las  leyes  de  la  República  de  Colombia,  identificada  con  NIT. 900.843.898-9, con domicilio en la Calle 93 No. 19-58 de la ciudad de Bogotá D.C., que para los efectos de los presentes términos se denominará “Rappi”.\n\nNaturaleza Jurídica\nLos presentes términos y condiciones regulan los parámetros bajo los cuales el Aliado Comercial podrá acceder al Sistema RappiGrowth, en el cual podrá seleccionar y crear Campañas Promocionales para ofrecerlas a los Usuarios/consumidores a través de la Plataforma, con el fin de que éstos las rediman y las utilicen en las órdenes que realicen en esta.\n\nEl  Aliado  Comercial  acepta  los  presentes  términos  y  condiciones  y  no  podrá  realizar  modificaciones  a  estos, comprendiendo que a partir del momento de su firma, será el único objeto de regulación del uso del Sistema RappiGrowth. Se aclara que los presentes términos y condiciones no modifican cualquier tipo de acuerdo suscrito anteriormente entre las Partes que tenga un Objeto diferente al aquí dispuesto. Rappi  S.A.S.  es  una  sociedad  constituida  conforme  a  las  leyes  de  la  República  de  Colombia,  identificada  con  NIT. 900.843.898-9, con domicilio en la Calle 93 No. 19-58 de la ciudad de Bogotá D.C., que para los efectos de los presentes términos se denominará “Rappi”.\n\nNaturaleza Jurídica\nLos presentes términos y condiciones regulan los parámetros bajo los cuales el Aliado Comercial podrá acceder al Sistema RappiGrowth, en el cual podrá seleccionar y crear Campañas Promocionales para ofrecerlas a los Usuarios/consumidores a través de la Plataforma, con el fin de que éstos las rediman y las utilicen en las órdenes que realicen en esta.\n\nEl  Aliado  Comercial  acepta  los  presentes  términos  y  condiciones  y  no  podrá  realizar  modificaciones  a  estos, comprendiendo que a partir del momento de su firma, será el único objeto de regulación del uso del Sistema RappiGrowth. Se aclara que los presentes términos y condiciones no modifican cualquier tipo de acuerdo suscrito anteriormente entre las Partes que tenga un Objeto diferente al aquí dispuesto.",
+      "fullService": "Full Service:",
+      "fullServiceDescription": "Através da plataforma Rappi, os pedidos do seu restaurante solicitados pelos usuários/consumidores serão gerenciados pelos Rappitenderos. Dessa forma, eles coletam os produtos em seu restaurante e os entregam ao usuário/consumidor no endereço selecionado.",
+      "marketPlace": "Market Place:",
+      "marketPlaceDescription": "Você mesmo cuidará da entrega do pedido ao cliente com entregadores particulares",
+      "accept": " Aceito os termos e condições e  autorizo a utilização dos meus dados pessoais.",
+      "acceptData": " Aceito a autorização de processamento de dados pessoais de ",
+      "acceptNotification": "Não se esqueça de ler o Termos e condições \"Scroll Down\"",
+      "deliveryType": "Com qual modalidade você quer trabalhar?",
+      "deliveryTypeNoQuestion": "Modalidade de operação",
+      "download": "Baixar >"
+    },
+    "inbound": {
+      "title": "Faça o seu restaurante crescer com a Rappi!",
+      "subtitle": "Deseja ver aumento significativo nas suas vendas? Inscreva-se agora na nossa plataforma!",
+      "selectCountry": "Selecione o seu país",
+      "restaurantName": "Nome do restaurante",
+      "ownerPhone": "Telefone de contato do dono",
+      "typeInYourNumber": "Escreva seu número de celular",
+      "nSalePoints": "Número de pontos de venda",
+      "contactChoice": "Como você prefere que entremos em contato? ",
+      "referralCode": "Você tem um código de indicação?",
+      "ownerName": "Nome do dono",
+      "ownerLastName": "Sobrenome",
+      "restaurantAddress": "Endereço do restaurante",
+      "ownerEmail": "Email do dono",
+      "foodCategory": "Categoria da comida",
+      "tradeType": "Tipo de comércio",
+      "restaurant": "Restaurante",
+      "supermarket": "Supermercado e Lojas de Conveniência",
+      "liqueurs": "Bebidas",
+      "technology": "Tecnologia",
+      "fashion": "Moda",
+      "beauty": "Beleza",
+      "pets": "Pets",
+      "gardening": "Jardinagem",
+      "corporateBrands": "Marcas Corporativas",
+      "tenOrMore": "10 ou mais",
+      "whatsApp": "WhatsApp",
+      "email": "Email",
+      "sms": "SMS",
+      "phoneCall": "Telefone",
+      "salesEstimate": "Gama mensal de vendas",
+      "instagramAccount": "Conta do instagram @",
+      "modal": {
+        "title": "Solicitação recebida!",
+        "subtitle": "Obrigado por preencher o formulário. Estamos analisando suas informações e em alguns minutos você receberá um e-mail com os próximos passos.",
+        "buttonText": "Ok"
+      }
+    },
+    "back": "Voltar",
+    "bankInfoForm": {
+      "stepTitle": "Dados bancários",
+      "title": "Onde você quer receber o seu pagamento?",
+      "accountIdType": "Tipo de identificação",
+      "accountNumber": "Número da conta",
+      "matchSocialReason": "O número da conta deve estar associado ao razão social",
+      "accountOwnerId": "Documento do titular da conta",
+      "accountOwnerLastName": "Sobrenomes do titular da conta",
+      "accountOwnerName": "Nome do titular da conta",
+      "agency": "Agência",
+      "agencyVerificationCode": "Dígito",
+      "verificationCode": "Código de conta interbancária (CCI)",
+      "accountType": "Tipo de conta",
+      "onlyOneNumber": "Este campo deve ter apenas um (1) número",
+      "onlyNumbers": "Este campo deve ter apenas números",
+      "accountTypes": {
+        "ca": "Poupança",
+        "cc": "Conta Corrente"
+      },
+      "bank": "Banco",
+      "billingAddress": "Endereço de cobrança",
+      "billingContactLastName": "Sobrenome do contato de faturamento",
+      "billingContactName": "Nome do contato de faturamento",
+      "contactEmail": "Email do contato de faturamento",
+      "contactPhone": "Telefone do contato de faturamento",
+      "fiscalAddress": "Endereço fiscal (mesmo endereço que consta no seu CNPJ)",
+      "invalidEmail": "Por favor, digite um email válido",
+      "invalidNumber": "Por favor, digite um número de conta válido",
+      "required": "Este campo é obrigatório"
+    },
+    "deliveryForm": {
+      "commission": "Comissão",
+      "deliveryPrice": "Frete",
+      "fullServiceExplanation": "Os entregadores cuidam de recolher o pedido no seu restaurante e entregar-lo ao cliente",
+      "fullServiceType": "Rappi se encarrega da entrega",
+      "marketplaceExplanation": "Você mesmo fará a entrega do pedido ao cliente com entregadores particulares",
+      "marketplaceType": "O restaurante fará a entrega",
+      "minOrderPrice": "Valor mínimo do pedido",
+      "minOrderPriceTip": "O valor mínimo de compra é o limite mínimo que um usuário deve gastar para realizar um pedido na sua loja",
+      "required": "Este campo é obrigatório para esta modalidade de serviço",
+      "shippingType": "Tipo de Frota",
+      "shippings": {
+        "bike": "Bicicleta",
+        "moto": "Moto"
+      },
+      "termsAndConditions": "Termos e Condições",
+      "title": "Como você deseja entregar os seus pedidos?"
+    },
+    "finish": "Finalizar",
+    "sendRequest": "Enviar solicitação",
+    "initialStep": {
+      "welcome": "Bem-vind@, :name!",
+      "button": "Começar agora!",
+      "first": "Informação do estabelecimento",
+      "second": "Modelo do serviço",
+      "third": "Anexe os documentos",
+      "fourth": "Digite os dados bancários",
+      "subtitle": "A solução para o seu restaurante",
+      "title": "Processo de registro",
+      "subtitleDescription": "Com a nossa plataforma, você poderá aumentar suas vendas em até 30%!  Contamos com tempos de entrega em menos de 35 minutos e com a maior frota de entregadores da América Latina.",
+      "phone": 5715140348
+    },
+    "infoForm": {
+      "stepTitle": "Informações",
+      "businessType": "Regime tributário",
+      "commercialName": "Nome do restaurante que aparecerá no aplicativo",
+      "invalidEmail": "Por favor, digite um email válido",
+      "legalAgentEmail": "Email do representante legal",
+      "legalAgentId": "Identificação do representante legal",
+      "legalAgentIdType": "Tipo de identificação",
+      "legalAgentLastName": "Sobrenome do representante legal",
+      "legalAgentName": "Nome do representante legal",
+      "legalAgentTributaryType": "Regime tributário",
+      "personType": "Tipo de pessoa",
+      "personTypes": {
+        "juridic": "Jurídica",
+        "natural": "Física"
+      },
+      "alert": "Lembre-se de que os dados serão tratados de acordo com a autorização previamente aceita para o processamento de dados pessoais.",
+      "required": "Este campo é obrigatório",
+      "socialReasonId": ":ID do aliado comercial",
+      "socialReasonName": "Razão social",
+      "socialReasonNumber": "Número de razão social",
+      "socialReasonType": "Tipo de sociedade",
+      "title": "Informação do aliado comercial",
+      "generalData": "Datos Gerais",
+      "schedules": "Horários",
+      "schedulesInfo": "Caso você deseje editar o horário da sua loja depois, você poderá fazê-lo pelo Portal Partners.",
+      "mustContainNCharacters": "Deve ter pelo menos :N caracteres",
+      "mustContainNDigits": "Deve ter pelo menos :N dígitos",
+      "xInvalid": ":X inválido"
+    },
+    "next": "Próximo",
+    "termsAndConditionsForm": {
+      "rememberSign": "Lembre-se de confirmar os termos e condições",
+      "thanksParagraph": "Após finalizar o processo, enviaremos o contrato assim que a sua conta for validada ",
+      "thanksTitle": "Obrigada por confiar na Rappi!",
+      "title": "Aceite os nossos termos e condições",
+      "mobileClick": "Clique Aqui para ver os nossos termos e condições. "
+    },
+    "select": "Selecione:",
+    "writeHere": "Escreva aqui...",
+    "newLeadsForm": {
+      "sent": "Obrigado por concluir a inscrição, em alguns minutos você receberá um e-mail de confirmação com suas respostas",
+      "titles": {
+        "rests": "Obrigado pela colaboração, suas respostas são muito importantes para nós! Estamos levantando a lista dos restaurantes mais queridos da sua cidade para melhorar a nossa experiência de lançamento.",
+        "cpgs": "Obrigado pela colaboração, suas respostas são muito importantes para nós! Estamos levantando a lista dos comercios mais queridos da sua cidade para melhorar a nossa experiência de lançamento.",
+        "newLead": " Para adicionar um novo restaurante, preencha as seguintes informações. Lembre-se de verificar antes se o restaurante já está no App."
+      },
+      "questions": {
+        "foodType": "Que tipo de comida gostaria de pedir na Rappi? (Max 3 opçoes).",
+        "whichRestaurants": "Qual restaurante você gostaria de pedir em casa?",
+        "whichInfluencer": "Você sigue algum Influencer (foodie)?",
+        "influencerName": "Se sua resposta é sim, escreva o nome do influencer.",
+        "favPizzaRestaurant": "Qual é sua pizza favorita na sua cidade?",
+        "favHamburguerRestaurant": "Qual é sua hamburgueria favorita na sua cidade? ",
+        "favSushiRestaurant": "Qual é seu restaurante Japonês favorito na sua cidade?",
+        "favPastaRestaurant": "Qual é seu restaurante Italiano favorito na sua cidade?",
+        "favTraditionalRestaurant": "Qual é seu restaurante Brasileiro favorito na sua cidade?",
+        "recommendedInfluencer": "Você sigue algum Influencer (foodie)?",
+        "otherPlatforms": "Has trabajado en otras plataformas anteriormente?",
+        "selectPlatforms": "Si tu respuesta es sí, selecciona las plataformas (selección múltiple).",
+        "rtsRestaurants": "Si tu respuesta es sí, De qué restaurantes entregabas más pedidos?",
+        "rappiMail": "Escreva aqui o e-mail com que está registrado na Rappi.",
+        "preferedSupermarket": "Qual é seu supermercado favorito?",
+        "preferedDrugStore": "Qual é a sua farmácia preferida?",
+        "preferedLiquorStore": "Qual é a sua loja de bebidas alcoólicas preferida?",
+        "someEstablishment": "Que estabelecimento você gostaria de ter em casa? (cabeleireiro, pet shop, etc.)?",
+        "restaurantName": "Nome do restaurante",
+        "ownersName": "Digite o nome",
+        "phoneContact": "Telefone de contato",
+        "tradeType": "Tipo de estabelecimento",
+        "isFranchise": "Este é um restaurante franqueado?"
+      },
+      "errors": {
+        "sendingSurvey": "Não foi possível salvar o formulário ",
+        "addressRequired": "Endereço é um campo obrigatório.",
+        "nameRequired": "Nome é um campo obrigatório.",
+        "typeFoodRequired": "Tipo de comida es un campo requrido.",
+        "emailRequired": "Email é um campo obrigatório.",
+        "emailEnRequired": "Email é um campo obrigatório.",
+        "invalidEmail": "Escreva um email correto.",
+        "platformsRequired": "Plataformas es un campo requerido.",
+        "invalidForm": "Por favor, complete o formulário.",
+        "teamRequired": "Equipe é um campo obrigatório.",
+        "sourceRequired": "Source é um campo obrigatório.",
+        "nSalePointsRequired": "Número de pontos de venda é um campo obrigatório.",
+        "taxonomyRequired": "Categoria é um campo obrigatório.",
+        "phoneRequired": "Telefone é um campo obrigatório.",
+        "tradeTypeRequired": "Tipo de comércio é um campo obrigatório.",
+        "roleRequired": "Função é um campo obrigatório.",
+        "franchisedRequired": "Restaurante franqueado é um campo obrigatório."
+      },
+      "instagramAccount": "Conta do Instagram do restaurante",
+      "role": "Função",
+      "restaurantAddress": "Endereço se você não encontrou o nome no campo acima",
+      "restaurantNumber": "Telefone do restaurante",
+      "hunterEmail": "Email do hunter ao qual o lead deve ser atribuído",
+      "leaderEmail": "Email do gerente",
+      "team": "Equipe",
+      "selectCountry": "Selecione o seu país",
+      "source": "Source (de onde chega o lead)",
+      "nSalePoints": "Número de pontos de venda",
+      "foodCategory": "Categoria de comida",
+      "address": "Endereço",
+      "finish": "Finalizar",
+      "restaurantName": "Digite o nome do restaurante",
+      "establishmentName": "Escreva o nome da loja",
+      "mandatory": "Os campos marcados com * são obrigatórios",
+      "name": "Nome do dono",
+      "email": "Digite o e-mail",
+      "influencerUser": "Escreva o nome do influencer",
+      "enter": {
+        "email": "Digite o e-mail",
+        "select": "Selecione",
+        "address": "Coloque seu endereço",
+        "phone": "Digite o telefone",
+        "instagramAccount": "Digite o nome de usuário do Instagram ex: @hotdogs96"
+      },
+      "emailAclaration": "Se a Rappi ainda não chego na sua cidade, escreva um email onde podemos nos comunicar.",
+      "options": {
+        "food": {
+          "pizza": "Pizza",
+          "hamburguer": "Hamburguesa",
+          "chicken": "Frango",
+          "seafood": "Peixe",
+          "dessert": "Sobremesa",
+          "vegetarian": "Vegetariana",
+          "breakfast": "Café da manha",
+          "pasta": "Pasta",
+          "asian": "Asiática",
+          "traditional": "Tradicional"
+        },
+        "tradeType": {
+          "restaurant": "Restaurante",
+          "supermarket": "Supermercados e lojas de conveniência",
+          "liqueurs": "Bebidas",
+          "technology": "Tecnologia",
+          "fashion": "Moda",
+          "beauty": "Beleza",
+          "pets": "Pets",
+          "gardening": "Jardinagem",
+          "corporateBrands": "Marcas Corporativas"
+        },
+        "numbers": {
+          "tenOrMore": "10 ou mais"
+        }
+      }
+    }
+  },
+  "fileInput": {
+    "dragHereOr": "Arraste aqui ",
+    "lessThan2Mb": "O arquivo não deve superar 2MB",
+    "select": "selecione",
+    "fileFormat": "Formato do arquivo",
+    "completed": "Completo",
+    "of": "de",
+    "press": "Clique",
+    "here": " aqui",
+    "toAttach": "para anexar"
+  },
+  "invalidFile": "O arquivo não pode ser maior que 2MB",
+  "landing": {
+    "family": {
+      "association": {
+        "text": "Contamos com mais de 15000 comércios desde restaurantes, supermercados e até dinheiro em efetivo.",
+        "title": "+ 15.000 comércios"
+      },
+      "deliver": {
+        "text": "Contamos com entregas em menos de 35 minutos e com a maior frota de entregadores da América Latina",
+        "title": "Entregue mais rápido"
+      },
+      "grow": {
+        "text": "Com a nossa plataforma você poderá aumentar até 30% das suas vendas",
+        "title": "Aumente as suas vendas"
+      },
+      "title": "Faça parte da Família Rappi"
+    },
+    "footer": {
+      "text": "Trabalhamos com amor © 2019 Rappi"
+    },
+    "login": {
+      "code": "Código",
+      "description": "Enviaremos um código de verificação a este número por WhatsApp",
+      "email": "E-mail",
+      "invalidEmail": "Digite um email válido",
+      "required": "Este campo é obrigatório",
+      "restaurant": "Nome do restaurante",
+      "send": "Enviar",
+      "title": "Seja o nosso sócio!",
+      "whatsapp": "Digite seu número de WhatsApp"
+    },
+    "main": {
+      "body": "Quer saber como aumentar as suas vendas de verdade? Inscreva-se na nossa plataforma",
+      "login": "Virar aliado agora!",
+      "title": "<b>Faça</b> o seu restaurante crescer com a <span>Rappi!</span>"
+    },
+    "nav": {
+      "login": "Entrar"
+    },
+    "solution": {
+      "action": "QUERO SABER MAIS",
+      "body": "“Rappi facilitou muito as nossas vendas. É uma ferramenta fundamental para o controle diário do negócio, nos permite estar conectados a todo momento de qualquer lugar e assim não perder nada do que está acontecendo”",
+      "quote": "— Carolina. Home Burgers.",
+      "title": "A solução para o seu Restaurante!"
+    },
+    "solutionCards": {
+      "accessBody": "Mantenha-se antenado sobre as suas vendas e desempenho operativo entrando no portal pelo computador, celular ou qualquer dispositivo que acesse a internet.",
+      "accessTitle": "Acessibilidade",
+      "adminBody": "Atualize as informações sobre os seus pontos de venda para não perder nenhuma venda. Confirme os horários e disponibilidade de produtos por loja",
+      "adminTitle": "Administre sua filial",
+      "ordersBody": "Precisa conciliar diariamente? A seção de pedidos permite ver detalhes de todos os pedidos por loja, para facilitar o seu fechamento de caixa",
+      "ordersTitle": "Pedidos",
+      "statisticsBody": "Encontre a inforrmação necessária para poder gerenciar o seu restaurante. Desde detalhes sobre suas vendas até indicadores operativos importantes",
+      "statisticsTitle": "Estatísticas"
+    }
+  },
+  "modal": {
+    "verifyModal": {
+      "confirm": "Confirmar",
+      "error": "Verifique o seu código",
+      "helpText": "Não recebeu nada?",
+      "resendCode": "Reenviar código",
+      "subTitle": "Por favor, digite o código enviado para o seu Whatsapp",
+      "title": "Código de verificação"
+    }
+  },
+  "lastStep": {
+    "almostDone": "Falta pouco!",
+    "thanks": "Obrigada por registrar o seu estabelecimento!",
+    "thanksModified": "Obrigado por ajustar seus documentos",
+    "paragraph": "Verificaremos a informação enviada durante as próximas horas. Enviamos o seu usuário e senha do Portal Partners para o email :email para que continuar com o processo de criação de cardápio e ativação. ",
+    "paragraphModified": "Acesse o <1>Portal Partners</1> com seu email {{email}} para que você possa concluir o processo de ativação.",
+    "understood": "Ok"
+  },
+  "scheduleMaker": {
+    "day": "Dia",
+    "opens": "Abre",
+    "close": "Fecha",
+    "writeOpens": "Informe o horário de abertura",
+    "writeClose": "Informe o horário de fechamento",
+    "addSchedule": "Adicionar outro turno",
+    "weekDays": {
+      "mon": "Segunda",
+      "tue": "Terça",
+      "wed": "Quarta",
+      "thu": "Quinta",
+      "fri": "Sexta",
+      "sat": "Sábado",
+      "sun": "Domingo"
+    }
+  },
+  "inboundPage": {
+    "hero": {
+      "title": "Aumente as suas vendas e faça o seu restaurante crescer com a Rappi",
+      "subtitle": "Entre na nossa plataforma e conquiste novos clientes entregando os seus produtos"
+    },
+    "form": {
+      "headers": {
+        "step_1": "Comece aqui!",
+        "step_2": "Conte-nos sobre o seu negócio"
+      },
+      "button": {
+        "step_1": "Começar",
+        "step_2": "Enviar"
+      },
+      "agreement": {
+        "byClicking": "Clicando em \"Iniciar\", você aceita os nossos",
+        "termsAndConditions": "Termos, condições",
+        "andThe": "e",
+        "privacyPolicy": "Política de Privacidade",
+        "contact": "Ao prosseguir, aceito que o Rappi entre em contato comigo por WhatsApp, e-mail ou telefone (incluindo mensagens automáticas para fins comerciais)",
+        "whatsapp": "Concordo em receber comunicados via Whatsapp para fins de cadastro"
+      }
+    },
+    "discoverBenefits": {
+      "title": "Descubra os benefícios dos mais de  <strong>40.000 restaurantes</strong> que já trabalham com a Rappi em 9 países ",
+      "moreInfo": "mais informações"
+    },
+    "perks": {
+      "title": "O modelo <strong>mais lucrativo</strong> para seus restaurantes",
+      "list": {
+        "benefit_1": "Aproveite ao máximo o potencial dos seus funcionários",
+        "benefit_2": "Diminua os seus custos fixos com as vendas adicionais que as entregas geram ",
+        "benefit_3": "Mostre o seu restaurante para milhares de clientes em potencial",
+        "benefit_4": "Economize significativamente em taxas pagas aos bancos por cartões de débito e crédito, já que a Rappi cobre <strong> cerca de 3% </strong> desse valor",
+        "benefit_5_percentage": "Até 30%",
+        "benefit_5": "de aumento nas suas vendas sem afetar os seus custos operacionais"
+      }
+    },
+    "clientQuotes": {
+      "title": "Conquiste <strong>novos clientes</strong>",
+      "textContent": {
+        "paragraph_1": "Milhares de usuários buscam opções para comer diariamente na Rappi",
+        "paragraph_2": "Junte-se à Rappi e alcance novos clientes com uma excelente experiência de delivery"
+      },
+      "list": {
+        "quote_1": {
+          "author": "Camilo Giraldo - Restaurante Gordo",
+          "quote": "A Rappi está nos dando toda a ajuda possível para que as nossas entregas tenham um bom desempenho e para manter a saúde de nossos funcionários e clientes.",
+          "location": "Bogotá, Colômbia - Abril 2020"
+        },
+        "quote_2": {
+          "author": "Catalina Lozano - CEO Randys",
+          "quote": "Rappi nos deu a possibilidade de superar a situação atual, sendo um grande aliado para enfrentar a crise que os restaurantes estão passando. Nos últimos 6 meses, crescemos 35% mês a mês e, se falarmos ano após ano, o crescimento foi de 519%",
+          "location": ""
+        },
+        "quote_3": {
+          "author": "Juan Guillermo Azuero - Co fundador da Foodology",
+          "quote": "A flexibilidade, a tecnologia e a facilidade de uso da Rappi nos permitiram escalar nossos negócios de 0 a mais de 60.000 pedidos. Recomendamos sem dúvida!",
+          "location": ""
+        },
+        "quote_4": {
+          "author": "Ernesto Uribe - CEO",
+          "quote": "Com a Rappi, pude criar o conceito da Aurelio Pizzeria em 2018, que foi estratégico para a situação que estamos enfrentando atualmente. Cozinhas 100% escondidas, 100% digital, 100% delivery, 100% cashless. Crescemos exponencialmente em Bogotá e Cali e logo nacionalmente.",
+          "location": ""
+        }
+      }
+    },
+    "brandGrowth": {
+      "title": "Impulsione e faça <strong>sua marca</strong> crescer",
+      "textContent": {
+        "paragraph_1": "Ao entrar na Rappi, a sua marca e o seu cardápio estarão disponíveis para novos clientes, que podem descobrir e se deliciar com sua proposta de valor e pedir sua comida onde quer que estejam",
+        "paragraph_2": "Ajudamos nossos aliados a criar publicidade e estratégias de mercado nos nossos canais. Isso aumenta o número de usuários que consomem pela Rappi",
+        "paragraph_3": "Nossa experiência dentro do aplicativo permite que você apresente sua marca de forma chamativa e interaja com os usuários, aumentando assim, as suas vendas."
+      }
+    },
+    "highlights": {
+      "title": "O que nos torna <strong>diferentes</strong>?",
+      "list": {
+        "highlight_1": "Somos o único <strong> SuperApp da América Latina </strong>, integramos diferentes tipos de negócios que aumentam o tempo de consumo e, portanto, as oportunidades de venda] do seu restaurante",
+        "highlight_2": "Com o Rappi Prime, criamos experiências únicas e oferecemos grandes benefícios aos nossos usuários, gerando um vínculo de confiança entre eles e nosso aplicativo",
+        "highlight_3": "Inovação constante. Na Rappi acreditamos que as novas tecnologias impulsionarão nossos aliados a aumentar suas vendas"
+      },
+      "objectives": {
+        "title": "O que procuramos?",
+        "list": {
+          "objective_1": "Bem-estar para todos os nossos usuários",
+          "objective_2": "Contribuir para o desenvolvimento econômico da região",
+          "objective_3": "Dar tempo para as pessoas gastarem com o que elas mais valorizam"
+        }
+      }
+    },
+    "steps": {
+      "title": "Comece em apenas <strong>3 passos</strong>",
+      "list": {
+        "step_1": "Registre as informações do seu restaurante",
+        "step_2": "Configure sua loja e crie o seu cardápio",
+        "step_3": "Fique ativo e comece a receber pedidos"
+      }
+    },
+    "restaurantsBanner": {
+      "title": "A plataforma <strong>ideal</strong> para todos os tipos de restaurantes: grandes ou pequenos",
+      "subtitle": "<strong>+40.000</strong> restaurantes aumentaram sua marca e receita com o Rappi"
+    },
+    "faq": {
+      "list": {
+        "qa_1": {
+          "question": "Quanto tempo levarei para me tornar um restaurante parceiro?",
+          "answer": "Se as informações fornecidas estiverem corretas e tivermos todo o necessário para configurar uma loja na Rappi, o processo deverá ser realizado em 5 dias."
+        },
+        "qa_2": {
+          "question": "Como os preços funcionam?",
+          "answer": "A comissão Rappi é uma porcentagem + IVA sobre cada venda ou fatura efetuada pela Rappi"
+        },
+        "qa_3": {
+          "question": "Quem faz as entregas?",
+          "answer": "O modelo Rappi de serviço completo inclui a nossa frota de entregadores que se encarregam de entregar o pedido no destino final."
+        },
+        "qa_4": {
+          "question": "Quem paga a entrega?",
+          "answer": "O valor da entrega depende da distância que será percorrida pelo entregador, e esses valores são visíveis antecipadamente pelo consumidor final, que é quem paga pela entrega do pedido"
+        },
+        "qa_5": {
+          "question": "Qual é o raio de entrega?",
+          "answer": "Isso varia muito, dependendo da agilidade e velocidade da operação interna do restaurante. No entanto, vai entre 2 a 5 km."
+        },
+        "qa_6": {
+          "question": "Que tipos de funções os Restaurantes Membros recebem?",
+          "answer": "Sendo um aliado comercial da Rappi, você tem acesso ao Portal dos Aliados, onde você pode gerenciar cardápio, fotos, descrições, promoções e ver as vendas do seu restaurante. <br/> <br/> Você também recebe uma fatura mensal com o valor vendido durante o mês."
+        },
+        "qa_7": {
+          "question": "Preciso pagar para fazer parte da Rappi?",
+          "answer": "Não, tornar-se um RappiaAliado é completamente grátis. Lembre-se de que seu único custo é a comissão + IVA em cada pedido feito através da Rappi"
+        },
+        "qa_8": {
+          "question": "Com que frequência recebo meus ganhos?",
+          "answer": "Os pagamentos são semanais, e reunirão tudo o que foi vendido na semana anterior, já descontados a comissão da Rappi. O dinheiro será transferido para a conta bancária fornecida por você."
+        },
+        "qa_9": {
+          "question": "É possível fazer alterações depois de fornecer as informações?",
+          "answer": "Sim. No Portal do Aliado, você encontrará o centro de gerenciamento do seu restaurante, onde você pode modificar os detalhes que desejar, como cardápio, fotos, horários, descrições de pratos etc. <br/> No entanto, alterações importantes, como contas bancárias ou faturamento devem ser feitas pela linha de Suporte."
+        }
+      }
+    },
+    "footer": {
+      "interestingInfo": {
+        "title": "Informação de interesse",
+        "list": {
+          "termsAndConditions": "Termos e Condições",
+          "personalData": "Política de tratamento de dados pessoais",
+          "aboutRappi": "Sobre a Rappi",
+          "iWannaDeliver": "Quero ser entregador",
+          "helpCenter": "Centro de ajuda",
+          "workWithUs": "Trabalhe conosco",
+          "blog": "Blog",
+          "privacyPolicy": "Aviso de privacidade"
+        }
+      },
+      "categories": {
+        "title": "Categorias",
+        "list": {
+          "restaurants": "Restaurantes",
+          "marketExpress": "Supermercados / Express",
+          "rappiMall": "RappiMall",
+          "cravings": "Desejos",
+          "rappiFavor": "RappiFavor",
+          "atm": "RappiCash",
+          "liquors": "Bebidas",
+          "drugStores": "Farmácias",
+          "pets": "Pets",
+          "babyWorld": "Baby",
+          "travel": "Viagens",
+          "flowerShops": "Floricultura",
+          "carWash": "Lava-jato",
+          "manicures": "Manicure"
+        }
+      },
+      "downloadApp": {
+        "title": "Baixe o aplicativo"
+      },
+      "contactUs": {
+        "title": "Contate-Nos"
+      },
+      "copyright": {
+        "copyright": "Copyright © 2020 Rappi",
+        "allRightsReserved": "Todos os direitos reservados"
+      }
+    }
+  },
+  "contract": {
+    "title1": "Informações sobre aceitação dos Termos e Condições da Plataforma Rappi e",
+    "title2": "Autorização para o Tratamento de Dados Pessoais",
+    "subtitle1": "Abaixo estão as informações sobre a aceitação do Commercial Ally dos Termos e Condições da Plataforma ",
+    "subtitle2": "Rappi e da Autorização para o Tratamento de Dados Pessoais:",
+    "doc": "Documento",
+    "IP": "IP",
+    "ally": "Parceiro \nComercial",
+    "email": "E-mail",
+    "date": "Data de \nAceitação",
+    "doc1": "Termos e \nCondições da \nPlataforma Rappi",
+    "doc2": "Autorização para\nprocessamento de\nDados pessoais"
+  },
+  "whatsappHelp": {
+    "title": "Precisando de ajuda?",
+    "message": "Ol%C3%A1!%20Preciso%20de%20ajuda%20com%20o%20meu%20processo%20de%20ativa%C3%A7%C3%A3o",
+    "scheduleMessage": "Horário de atendimento",
+    "schedule": "Segunda a Sexta das 9h - 18h"
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <rect id="prefix__a" width="18" height="18" x="0" y="0" rx="2.25"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <rect width="17.5" height="17.5" x=".25" y=".25" stroke="#F5F5F5" stroke-width=".5" rx="2.25"/>
+        <path fill="#E3283E" d="M12.375 0H18V18H12.375z" mask="url(#prefix__b)"/>
+        <path fill="#128A60" d="M0 0H5.625V18H0z" mask="url(#prefix__b)"/>
+        <g mask="url(#prefix__b)">
+            <g transform="translate(6.694 6.75)">
+                <path fill="#8C9157" fill-rule="nonzero" d="M.563 1.35c.229 0 .418.172.446.394l.004.056c0 .487.26.929.673 1.169.215.125.288.4.164.615-.125.215-.4.288-.615.163C.545 3.347.112 2.611.112 1.8c0-.249.202-.45.45-.45zm3.6 0c.248 0 .45.201.45.45 0 .777-.398 1.486-1.04 1.897-.209.133-.487.072-.621-.137-.134-.21-.073-.488.137-.622.386-.246.623-.672.623-1.138 0-.249.202-.45.45-.45z"/>
+                <ellipse cx="2.362" cy="1.35" fill="#C59262" rx="1" ry="1.35"/>
+            </g>
+        </g>
+    </g>
+</svg>

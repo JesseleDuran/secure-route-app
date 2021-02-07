@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <circle id="prefix__c" cx="7.65" cy="4.838" r="3.15"/>
+        <rect id="prefix__a" width="18" height="18" x="0" y="0" rx="2.25"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="prefix__b" fill="#fff">
+            <use xlink:href="#prefix__a"/>
+        </mask>
+        <use fill="#FFF" xlink:href="#prefix__a"/>
+        <path fill="#05AB41" d="M0 0H18V18H0z" mask="url(#prefix__b)"/>
+        <g mask="url(#prefix__b)">
+            <g transform="translate(1.519 4.162)">
+                <path fill="#FDD216" d="M.38 5.083c-.21-.136-.206-.358 0-.491L7.27.133c.21-.136.554-.133.76 0l6.89 4.459c.21.136.206.358 0 .491L8.03 9.542c-.21.136-.554.133-.76 0L.38 5.083z"/>
+                <mask id="prefix__d" fill="#fff">
+                    <use xlink:href="#prefix__c"/>
+                </mask>
+                <use fill="#053087" xlink:href="#prefix__c"/>
+                <path fill="#FFF" fill-rule="nonzero" d="M3.732 4.07c.543-.544 1.608-.501 3.988-.127 1.473.232 3.166.872 3.784 1.416l.064.06.318.318-.636.637-.318-.318c-.393-.393-1.995-1.01-3.352-1.224l-.37-.056c-1.618-.24-2.57-.271-2.817-.091l-.025.02-.318.319-.636-.637.318-.318z" mask="url(#prefix__d)" transform="rotate(6 7.65 5.018)"/>
+            </g>
+        </g>
+    </g>
+</svg>
