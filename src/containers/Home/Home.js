@@ -16,11 +16,12 @@ const defaultState = {
     lng: 0,
     value: "",
   },
-  mode: 1,
   openSteps: false,
-  duration: 0,
+  durationWalk: 0,
+  durationDrive: 0,
   distance: 0,
   steps: [],
+  duration: 0,
   totalCrimes: 0,
 };
 
@@ -29,6 +30,10 @@ class Home extends Component {
     super(props);
     this.state = {
       requirements: {},
+      mode: 1,
+      tab: 0,
+      secure: defaultState,
+      shortest: defaultState,
       ...defaultState,
     };
   }
@@ -79,6 +84,30 @@ class Home extends Component {
     });
   };
 
+  handleChangeTab = (event, newValue) => {
+    this.setState({
+      ...this.state,
+      tab: newValue,
+    });
+  };
+
+  handleOnClickChip = newValue => async event => {
+    const { durationDrive, durationWalk } = this.state;
+    const duration =
+      newValue === 1 || newValue === 2 ? durationDrive : durationWalk;
+    this.setState(
+      prevState => {
+        return { duration, mode: newValue };
+      },
+      () => {
+        const { destination, origin } = this.state;
+        if (origin.lat !== 0 && destination.lat !== 0) {
+          this.onGetDirection();
+        }
+      },
+    );
+  };
+
   handleCloseSteps = () => {
     this.setState({
       ...this.state,
@@ -93,9 +122,12 @@ class Home extends Component {
       const { origin, destination, mode } = this.state;
       await getDirection(origin, destination, mode).then(response => {
         const result = response.routes[0];
-        const duration = result.duration_driving / 60;
+        const durationDrive = result.duration_driving / 60;
+        const durationWalk = result.duration_walking / 60;
+        const duration = mode == 1 || mode == 2 ? durationDrive : durationWalk;
         map.setRoute(result.polyline);
         map.setOrigin(origin.lat, origin.lng);
+        map.setCenter(origin.lat, origin.lng);
         map.setDestination(destination.lat, destination.lng);
         map.setDuration(duration);
         this.setState({
@@ -103,6 +135,8 @@ class Home extends Component {
           distance: result.distance,
           steps: result.steps,
           totalCrimes: result.total_crimes,
+          durationDrive,
+          durationWalk,
           duration,
         });
       });
@@ -121,9 +155,12 @@ class Home extends Component {
       mode,
       openSteps,
       steps,
-      duration,
+      durationDrive,
+      durationWalk,
       distance,
-      totalCrimes
+      totalCrimes,
+      duration,
+      tab,
     } = this.state;
     return (
       <HomePage
@@ -131,10 +168,15 @@ class Home extends Component {
         totalCrimes={totalCrimes}
         distance={distance}
         openSteps={openSteps}
+        durationDrive={durationDrive}
+        durationWalk={durationWalk}
         duration={duration}
+        tabValue={tab}
         steps={steps}
+        handleChangeTab={this.handleChangeTab}
         handleCloseSteps={this.handleCloseSteps}
         handleOpenSteps={this.handleOpenSteps}
+        handleOnClickChip={this.handleOnClickChip}
         origin={origin}
         destination={destination}
         mode={mode}
